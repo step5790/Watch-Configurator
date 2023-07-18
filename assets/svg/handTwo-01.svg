@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 2834 2834">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: white;
+        isolation: isolate;
+      }
+
+      .cls-2 {
+       
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <g id="handTwo" class="cls-1">
+    <path class="cls-2" d="M1774,1055l4,2-76,77-96,97-133,87c-.58,26.1-5.38,56.36-29,66l-19,2c-4.82,1.22-5.55,5.15-11,4l-112,415-4-1,109-423c-26.82-5.78-24.21-29-29-55l-33-19-59-33-82-100-38-47,1-2,167,91,70,82c4.57-1.84,21-2.39,25-6l21-93h1l18,5v4l-27,89,6,4,121-116Z"/>
+  </g>
+  <g id="handTwoShadow_Image" data-name="handTwoShadow Image">
+    <image id="handTwoShadow_Image-2" data-name="handTwoShadow Image" width="624" height="761" transform="translate(1166 1054)" xlink:href="assets/svg/handTwo1.png"/>
+  </g>
+</svg>

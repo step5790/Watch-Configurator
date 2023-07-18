@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 2834 2834">
+  <g id="strapThree" style="isolation: isolate" class="cls-1">
+    <path d="M1378,281c78-.34,158.56-1,224,12,13.78,2.73,49.61-5.67,59,1,23,16.31,16.82,77.88,23,114q10,100,20,200c6.52,35.76,14,89.08,6,130-24,16.71-90.12,8-128,8H1254c-35.57,0-120.91,7.58-135-12-.72-69.75,2.22-133.28,14-194,9.57-49.32,5.67-99.94,15-147,5-25.38,1.65-87.16,18-98,12.34-8.18,23,2.73,38,0,31.33-5.7,77.11-5.7,118-12Z" fill-rule="evenodd"/>
+    <path d="M1144,1944h416c44.15,0,130.9-8.92,154,12,.43,58.58,1.49,116-7,165q-4,53.49-8,107l-12,157c-6.54,40.32.18,134.12-26,151-4.46,2.87-50.82-1.86-58,0-88.77,22.94-250.92,23.2-346,4-20.23-4.09-85-1.44-91-10-15.49-22-11.33-108.18-17-144q-11-144-22-288c-5.57-35.73-12.22-112.64-1-147Z" fill-rule="evenodd"/>
+  </g>
+  <g id="strapThreeShadow_Image" data-name="strapThreeShadow Image">
+    <image id="strapThreeShadow_Image-2" data-name="strapThreeShadow Image" width="595" height="2273" transform="translate(1119 280)" xlink:href="assets/svg/strapThree1.png"/>
+  </g>
+  <g id="strapTwoLights_Image" data-name="strapTwoLights Image">
+    <image id="strapTwoLights_Image-2" data-name="strapTwoLights Image" width="593" height="2261" transform="translate(1120 291)" xlink:href="assets/svg/strapThree2.png"/>
+  </g>
+</svg>

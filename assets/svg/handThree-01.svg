@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 2834 2834">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: white;
+        isolation: isolate;
+      }
+
+      .cls-2 {
+        
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <g id="handThree" class="cls-1">
+    <path class="cls-2" d="M1735,1013q-1,5.5-2,11c4.87,1.48,3-.32,4,5l-57,139-197,147c-13.33,10.39-3.72,31.79-11,49-10,23.58-40.74,28.25-64,32l-125,372-6-3q43.5-138.48,87-277c6.89-19.86,34.63-90.55,32-108-26.87-10.14-17.28-37.3-30-48l-177-124q-6.49-22.5-13-45l46-3,137,95c20.61,14.62,37,37.3,70,31q11.51-37.5,23-75l19,5v3l-14,39h1v-2l22-30c29.16-34.63,55.7-73.91,82-111l26-37Z"/>
+  </g>
+  <g id="handThreeShadow_Image" data-name="handThreeShadow Image">
+    <image id="handThreeShadow_Image-2" data-name="handThreeShadow Image" width="570" height="766" transform="translate(1175 1012)" xlink:href="assets/svg/handThree1.png"/>
+  </g>
+</svg>

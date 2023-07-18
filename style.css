@@ -1,0 +1,191 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300&display=swap");
+
+:root {
+  font-family: "Red Hat Display", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding-left: 55px;
+  padding-right: 55px;
+  /* background-color: #222222; */
+  background-color: #000000d9;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='250' height='30' viewBox='0 0 1000 120'%3E%3Cg fill='none' stroke='%23222' stroke-width='3' stroke-opacity='0.71'%3E%3Cpath d='M-500 75c0 0 125-30 250-30S0 75 0 75s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 45c0 0 125-30 250-30S0 45 0 45s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 105c0 0 125-30 250-30S0 105 0 105s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 15c0 0 125-30 250-30S0 15 0 15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500-15c0 0 125-30 250-30S0-15 0-15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 135c0 0 125-30 250-30S0 135 0 135s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+#optionSelect {
+  border: 1px solid #d7bd7b;
+  border-left: 0;
+  border-right: 0;
+  /* padding: 25px; */
+  z-index: 9;
+  background-color: #1a1a1a;
+}
+
+#optionSelect ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: space-evenly;
+  margin: 0;
+}
+
+#optionSelect li {
+  padding: 12px;
+}
+
+#optionSelect li:hover,
+#optionSelect li:active {
+  background-color: #585858;
+}
+
+figure.option img:hover {
+  transform: scale(1.2);
+}
+
+#optionSelect img {
+  width: 4vw !important;
+}
+
+#optionWrapper img {
+  width: 15vw;
+  height: auto;
+}
+
+figure.option {
+  margin: 0;
+  padding: 0;
+}
+
+figcaption {
+  color: #989898;
+  text-align: center;
+}
+
+#basicStrapShadow_Image,
+#basicHandShadow_Image,
+#basicBodyShadow_Image,
+#strapOneShadow_Image,
+#strapTwoShadow_Image,
+#bodyOneShadow_Image,
+#bodyTwoShadow_Image,
+#bodyThreeShadow_Image,
+#strapThreeShadow_Image,
+#insideOneShadow_Image,
+#insideTwoShadow_Image,
+#insideThreeShadow_Image,
+#handOneShadow_Image,
+#handTwoShadow_Image,
+#handThreeShadow_Image {
+  pointer-events: none;
+}
+
+.strapOne,
+.strapTwo,
+.strapThree,
+.bodyOne,
+.bodyTwo,
+.bodyThree,
+.insideOne,
+.insideTwo,
+.insideThree,
+.handOne,
+.handTwo,
+.handThree {
+  display: inline-block;
+  height: 50%;
+  width: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding-top: 7%;
+}
+
+.hide {
+  visibility: hidden;
+}
+
+#product-preview img.basic {
+  position: relative;
+}
+
+#configurator {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* background-color: #222222; */
+  padding-top: 5%;
+}
+
+#product-preview {
+  width: 50%;
+  height: auto;
+}
+
+.details {
+  padding: 4vw;
+  color: whitesmoke;
+  letter-spacing: 1.3px;
+  line-height: 12px;
+  z-index: 9;
+  background-color: #1a1a1a;
+}
+
+#optionStrap,
+#optionBody,
+#optionFace,
+#optionDial {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  position: absolute;
+  align-self: center;
+}
+
+#optionWrapper {
+  width: 50%;
+  height: 48vw;
+  display: flex;
+  flex-direction: column;
+  background-color: #1a1a1a;
+  box-shadow: -6px 1px 9px -3px rgb(153 153 153 / 75%);
+  -webkit-box-shadow: -6px 1px 9px -3px rgb(3 3 3 / 34%);
+  -moz-box-shadow: -6px 1px 9px -3px rgba(153, 153, 153, 0.75);
+}
+
+#colors svg {
+  display: inline-block;
+  position: absolute;
+  top: 40%;
+  left: 45%;
+  width: 27vw;
+  height: auto;
+}
+
+circle.color-btn {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  vertical-align: middle;
+  cursor: default;
+}
+
+/* *****animations******* */
+
+.moveDown {
+  animation-name: moveDown;
+  animation-duration: 1.2s;
+  animation-iteration-count: inherit;
+  animation-fill-mode: forwards;
+}
+
+@keyframes moveDown {
+  from {
+    transform-origin: top;
+    transform: translateY(0%);
+  }
+
+  to {
+    transform: translateY(130%);
+  }
+}

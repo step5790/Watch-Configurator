@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex" />
+    <title>Watch Configurator</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div id="configurator">
+      <div id="product-preview">
+        <div class="mainWatch hide"></div>
+        <div data-part="strap" class="strapOne"></div>
+        <div data-part="strap" class="strapTwo hide"></div>
+        <div data-part="strap" class="strapThree hide"></div>
+        <div data-part="body" class="bodyOne"></div>
+        <div data-part="body" class="bodyTwo hide"></div>
+        <div data-part="body" class="bodyThree hide"></div>
+        <div data-part="inside" class="insideOne"></div>
+        <div data-part="inside" class="insideTwo hide"></div>
+        <div data-part="inside" class="insideThree hide"></div>
+        <div data-part="hand" class="handOne"></div>
+        <div data-part="hand" class="handTwo hide"></div>
+        <div data-part="hand" class="handThree hide"></div>
+      </div>
+
+      <div id="optionWrapper">
+        <div class="details">
+          <h1 class="productName">AUDEMARS PIGUET</h1>
+          <p>Royal Oak model</p>
+        </div>
+        <div id="optionSelect">
+          <ul>
+            <li class="case" data-feature="optionBody">
+              <img src="../assets/svg/case1.png" alt="case" />
+            </li>
+            <li class="strap" data-feature="optionStrap">
+              <img src="../assets/svg/strap1.png" alt="strap" />
+            </li>
+            <li class="face" data-feature="optionFace">
+              <img src="../assets/svg/face1.png" alt="face" />
+            </li>
+            <li class="dial" data-feature="optionDial">
+              <img src="../assets/svg/dial1.png" alt="dial" />
+            </li>
+          </ul>
+        </div>
+
+        <div id="optionStrap" class="options">
+          <figure
+            class="option"
+            data-part="strap"
+            data-feature="strapThree"
+            data-status="off"
+          >
+            <img
+              src="../assets/original/basicStrap.png
+          "
+              alt="strapOne"
+            />
+            <figcaption>Leather Skin</figcaption>
+          </figure>
+          <figure
+            class="option"
+            data-part="strap"
+            data-feature="strapOne"
+            data-status="off"
+          >
+            <img src="../assets/original/strapOne.png" alt="strapOne" />
+            <figcaption>Normal Strap</figcaption>
+          </figure>
+          <figure
+            class="option"
+            data-part="strap"
+            data-feature="strapTwo"
+            data-status="off"
+          >
+            <img src="../assets/original/strapTwo.png" alt="strapTwo" />
+            <figcaption>Alligator Skin</figcaption>
+          </figure>
+          <div id="colors">
+            <svg viewBox="0 0 200 160">
+              <g id="all-colors">
+                <circle
+                  class="color-btn"
+                  cy="115"
+                  cx="50"
+                  r="8"
+                  fill="#601d1d"
+                  cx="25%"
+                ></circle>
+                <circle
+                  class="color-btn"
+                  cy="115"
+                  cx="82"
+                  r="8"
+                  fill="#202020"
+                ></circle>
+                <circle
+                  class="color-btn"
+                  cy="115"
+                  cx="115"
+                  r="8"
+                  fill="#6c5332"
+                ></circle>
+                <circle
+                  class="color-btn"
+                  cy="115"
+                  cx="145"
+                  r="8"
+                  fill="#b0723b"
+                ></circle>
+
+                <!-- <circle class="color-btn" cy="145" cx="50" r="8" fill="red"></circle>
+              <circle class="color-btn" cy="145" cx="82" r="8" fill="blue"></circle>
+              <circle class="color-btn" cy="145" cx="115" r="8" fill="green"></circle>
+              <circle class="color-btn" cy="145" cx="145" r="8" fill="yellow"></circle> -->
+              </g>
+            </svg>
+          </div>
+        </div>
+
+        <div id="optionBody" class="options moveDown">
+          <figure class="option" data-part="body" data-feature="bodyOne">
+            <img
+              src="../assets/original/basicBodypng.png"
+              alt="bodyOne"
+              data-status="off"
+            />
+            <figcaption>Normal Frame</figcaption>
+          </figure>
+          <figure
+            class="option"
+            data-part="body"
+            data-feature="bodyTwo"
+            data-status="off"
+          >
+            <img src="../assets/original/bodyOne.png" alt="bodyTwo" />
+            <figcaption>4 Pin Frame</figcaption>
+          </figure>
+          <figure
+            class="option"
+            data-part="body"
+            data-feature="bodyThree"
+            data-status="off"
+          >
+            <img src="../assets/original/bodyTwo.png" alt="bodyThree" />
+            <figcaption>3 Pin Frame</figcaption>
+          </figure>
+
+          <div id="colors">
+            <svg viewBox="0 0 200 160">
+              <g id="all-colors">
+                <circle
+                  class="color-btn"
+                  cy="115"
+                  cx="50"
+                  r="8"
+                  fill="#EAEAEA"
+                  cx="25%"
+                ></circle>
+                <circle
+                  class="color-btn"
+                  cy="115"
+                  cx="82"
+                  r="8"
+                  fill="#797979"
+                ></circle>
+                <circle
+                  class="color-btn"
+                  cy="115"
+                  cx="115"
+                  r="8"
+                  fill="#66938a"
+                ></circle>
+                <circle
+                  class="color-btn"
+                  cy="115"
+                  cx="145"
+                  r="8"
+                  fill="#908dd9"
+                ></circle>
+
+                <!-- <circle class="color-btn" cy="145" cx="50" r="8" fill="red"></circle>
+              <circle class="color-btn" cy="145" cx="82" r="8" fill="blue"></circle>
+              <circle class="color-btn" cy="145" cx="115" r="8" fill="green"></circle>
+              <circle class="color-btn" cy="145" cx="145" r="8" fill="yellow"></circle> -->
+              </g>
+            </svg>
+          </div>
+        </div>
+
+        <div id="optionFace" class="options">
+          <figure
+            class="option"
+            data-part="inside"
+            data-feature="insideThree"
+            data-status="off"
+          >
+            <img src="../assets/original/insideThree.png" alt="faceThree" />
+            <figcaption>Blue</figcaption>
+          </figure>
+          <figure
+            class="option"
+            data-part="inside"
+            data-feature="insideOne"
+            data-status="off"
+          >
+            <img src="../assets/original/insideOne.png" alt="faceOne" />
+            <figcaption>White</figcaption>
+          </figure>
+          <figure
+            class="option"
+            data-part="inside"
+            data-feature="insideTwo"
+            data-status="off"
+          >
+            <img src="../assets/original/insideTwo.png" alt="faceTwo" />
+            <figcaption>Black</figcaption>
+          </figure>
+        </div>
+
+        <div id="optionDial" class="options">
+          <figure
+            class="option"
+            data-part="hand"
+            data-feature="handOne"
+            data-status="off"
+          >
+            <img src="../assets/original/basicHand.png" alt="dialOne" />
+            <figcaption>Thin</figcaption>
+          </figure>
+          <figure
+            class="option"
+            data-part="hand"
+            data-feature="handTwo"
+            data-status="off"
+          >
+            <img src="../assets/original/handTwo.png" alt="dialTwo" />
+            <figcaption>Medium</figcaption>
+          </figure>
+          <figure
+            class="option"
+            data-part="hand"
+            data-feature="handThree"
+            data-status="off"
+          >
+            <img src="../assets/original/handThree.png" alt="dialThree" />
+            <figcaption>Thick</figcaption>
+          </figure>
+
+          <div id="colors">
+            <svg viewBox="0 0 200 160">
+              <g id="all-colors">
+                <circle
+                  class="color-btn"
+                  cy="115"
+                  cx="50"
+                  r="8"
+                  fill="#dbdbdb"
+                  cx="25%"
+                ></circle>
+                <circle
+                  class="color-btn"
+                  cy="115"
+                  cx="82"
+                  r="8"
+                  fill="#242424"
+                ></circle>
+                <circle
+                  class="color-btn"
+                  cy="115"
+                  cx="115"
+                  r="8"
+                  fill="#ff4f4f"
+                ></circle>
+                <circle
+                  class="color-btn"
+                  cy="115"
+                  cx="145"
+                  r="8"
+                  fill="#53d7ff"
+                ></circle>
+
+                <!-- <circle class="color-btn" cy="145" cx="50" r="8" fill="red"></circle>
+              <circle class="color-btn" cy="145" cx="82" r="8" fill="blue"></circle>
+              <circle class="color-btn" cy="145" cx="115" r="8" fill="green"></circle>
+              <circle class="color-btn" cy="145" cx="145" r="8" fill="yellow"></circle> -->
+              </g>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
